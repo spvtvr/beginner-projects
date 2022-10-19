@@ -8,6 +8,7 @@ import Quiz from './pages/quiz-page';
 import UserList from './pages/user-list-page';
 import Converter from './pages/converter-page';
 import Photos from './pages/photos-page';
+import Modal from './pages/modal-page';
 import NotFound from './pages/not-found-page';
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/counter" element={<Counter />} />
+      <Route path="/modal" element={<Modal />} />
       <Route path="/quiz" element={<Quiz />} />
       <Route path="/users" element={<UserList />} />
       <Route path="/converter" element={<Converter />} />

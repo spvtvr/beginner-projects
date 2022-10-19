@@ -11,5 +11,5 @@ export default function NotFound() {
         <button className={styles.button}>Go to main</button>
       </Link>
     </div>
-  )
+  );
 }
