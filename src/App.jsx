@@ -1,17 +1,15 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import './styles/index.scss';
-// import { Routes, Route } from 'react-router-dom';
+
+import MainPage from './pages/main-page';
 
 export default function App() {
   return (
-    <>
-      <h1>6 Pet Projects</h1>
-      <div className="buttons">
-        <Routes>
+    <Routes>
+      <Route path="/" element={<MainPage />}>
 
-        </Routes>
-      </div>
-    </>
+      </Route>
+    </Routes>
   );
 }
