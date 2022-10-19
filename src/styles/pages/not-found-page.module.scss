@@ -1,0 +1,13 @@
+@import '../mixin';
+
+.wrapper {
+  cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .button {
+    margin-top: 20px;
+    @include defaultButton
+  }
+}
