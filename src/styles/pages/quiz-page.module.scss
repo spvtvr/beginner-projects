@@ -1,0 +1,50 @@
+@import '../mixin';
+
+.wrapper {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  border: 1px solid #bfbcbc;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  h2 {
+    cursor: default;
+  }
+  img {
+    width: 150px;
+  }
+  .progress {
+    height: 10px;
+    width: 100%;
+    border: 1px solid #bfbcbc;
+    border-radius: 10px;
+    .inner {
+      background-color: #3a3e43;
+      height: 10px;
+      border-radius: 10px;
+    }
+  }
+  .again {
+    margin-bottom: 10px;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    width: 100%;
+    li {
+      cursor: pointer;
+      transition: .3s;
+      padding: 10px;
+      margin: 10px 0;
+      border: 1px solid #bfbcbc;
+      border-radius: 3px;
+      &:hover {
+        border-color: #3a3e43;
+      }
+    }
+  }
+}

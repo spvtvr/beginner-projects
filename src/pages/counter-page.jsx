@@ -12,8 +12,8 @@ export default function Counter() {
     <div className={styles.wrapper}>
       <h1 className={styles.count}>{count}</h1>
       <div>
-        <button onClick={onClickMinus}>Minus</button>
-        <button onClick={onClickPlus}>Plus</button>
+        <button onClick={onClickMinus}>-</button>
+        <button onClick={onClickPlus}>+</button>
       </div>
       <Link to="/"><button className={styles.back}>Back</button></Link>
     </div>

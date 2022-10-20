@@ -24,7 +24,7 @@ export default function Main() {
 
   return (
     <main className={styles.main}>
-      <h1>6 Pet Projects</h1>
+      <h1>6 Beginner Pet Projects</h1>
       <div className={styles.buttons}>{createPage(pages)}</div>
     </main>
   );
